@@ -116,7 +116,6 @@ void setup(){
   
   HardwareBegin();        //initialize Ringo's brain to work with his circuitry
   PlayStartChirp();       //Play startup chirp and blink eyes
-  SwitchMotorsToSerial(); //Call "SwitchMotorsToSerial()" before using Serial.print functions as motors & serial share a line
   RestartTimer();
   
 }
